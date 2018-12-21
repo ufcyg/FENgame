@@ -1,0 +1,22 @@
+Data-Installation;Summer;Winter;Night;Net;Environment;
+PV;8;4;0;0;0;
+Pinwheel;4;8;3;0;0;
+Storage;0;0;20;5;0;
+eCar;0;0;20;5;0;
+Powerplant;-5;-5;-5;0;5;
+Data-Connection;Summer;Winter;Night;Net;Environment;
+AC-Close;0;0;0;-5;0;
+AC-Far;0;0;0;-10;0;
+DC-Close;0;0;0;5;0;
+DC-Far;0;0;0;0;0;
+Powerplant;0;0;0;0;0;
+Data-Threshold;Summer;Winter;Night;Net;Environment;Supply
+red;70;70;70;70;40;70
+yellow;70;70;70;70;60;70
+green;90;90;90;90;80;90
+Data-Feedback;Summer;Winter;Night;Net;Environment;Supply
+red;Baue mehr Photovoltaik-Anlagen!|Nutze die Kraft der Sonne!;Im Winter scheint die Sonne nicht so stark!|Im Herbst und Winter ist es stürmischer!|Im Wind liegt die Kraft!;Photovoltaik-Anlagen haben nachts keinen Nutzen!|Nutze Speicher um nachts die Versorgung zu sichern!;Stromausfall durch Netzüberlastung! - Punkteabzug!|Nutze mehr Verbrauchernahe (DC) Anschlüsse!;;Stromausfall durch zu wenig Produktion! - Punkteabzug!
+yellow;Es droht Stomausfall im Sommer!|Baue mehr Photovoltaik-Anlagen!;Es droht Stromausfall im Winter!|Wir benötigen mehr Windräder, Sire!;Es droht nächtlicher Stromausfall!|Tagsüber aufladen, des Nachts entladen - Speicher!;Es droht Netzüberlastung!|Weiter entfernte (AC) Anschlüsse belasten das Stromnetz!;;Achte auf ausgeglichenen Ausbau!
+green;;;;;;
+scaling;2050;;;;;
+PowerShortagePenalty;33;%;;;;
